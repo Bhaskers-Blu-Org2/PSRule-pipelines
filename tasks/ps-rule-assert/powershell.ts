@@ -67,7 +67,8 @@ async function run() {
             failOnStdErr: false,
             errStream: process.stdout,
             outStream: process.stdout,
-            ignoreReturnCode: true
+            ignoreReturnCode: true,
+            silent: true
         };
 
         // Run PowerShell

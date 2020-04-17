@@ -37,7 +37,7 @@ param (
 
     # The path to store formatted output
     [Parameter(Mandatory = $False)]
-    [String]$OutputPath = (Get-VstsInput -Name 'outputPath') 
+    [String]$OutputPath = (Get-VstsInput -Name 'outputPath')
 )
 
 if ($Env:SYSTEM_DEBUG -eq 'true') {
